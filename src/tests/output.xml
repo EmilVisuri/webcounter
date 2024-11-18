@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.10.11 on win32)" generated="2024-11-18T17:01:13.258475" rpa="false" schemaversion="5">
+<suite id="s1" name="Reset" source="C:\Users\Emil\webcounter\src\tests\reset.robot">
+<kw name="Open And Configure Browser" owner="resource" type="SETUP">
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>${DELAY}</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2024-11-18T17:01:13.536383" elapsed="0.000000"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-18T17:01:13.537382" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg time="2024-11-18T17:01:14.160882" level="WARN">The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\Emil\Downloads\chromedriver-win64 (1)\chromedriver-win64\chromedriver.exe might not be compatible with the detected chrome version (130.0.6723.117); currently, chromedriver 130.0.6723.116 is recommended for chrome 130.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg time="2024-11-18T17:01:17.285857" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2024-11-18T17:01:17.285857" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 130.0.6723.117 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F83182B2+55298]
+	(No symbol) [0x00007FF7F8285E02]
+	(No symbol) [0x00007FF7F81405AB]
+	(No symbol) [0x00007FF7F8173E72]
+	(No symbol) [0x00007FF7F81732FE]
+	(No symbol) [0x00007FF7F816EC6C]
+	(No symbol) [0x00007FF7F816B30E]
+	(No symbol) [0x00007FF7F81AA198]
+	(No symbol) [0x00007FF7F81A9CB0]
+	(No symbol) [0x00007FF7F81A1E83]
+	(No symbol) [0x00007FF7F817670A]
+	(No symbol) [0x00007FF7F8177964]
+	GetHandleVerifier [0x00007FF7F8690AAB+3694587]
+	GetHandleVerifier [0x00007FF7F86E728E+4048862]
+	GetHandleVerifier [0x00007FF7F86DF173+4015811]
+	GetHandleVerifier [0x00007FF7F83B47D6+695590]
+	(No symbol) [0x00007FF7F8290CE8]
+	(No symbol) [0x00007FF7F828CF34]
+	(No symbol) [0x00007FF7F828D062]
+	(No symbol) [0x00007FF7F827D3A3]
+	BaseThreadInitThunk [0x00007FFC9E69259D+29]
+	RtlUserThreadStart [0x00007FFC9F12AF38+40]
+</msg>
+<arg>browser=${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2024-11-18T17:01:13.537382" elapsed="3.753477">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 130.0.6723.117 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F83182B2+55298]
+	(No symbol) [0x00007FF7F8285E02]
+	(No symbol) [0x00007FF7F81405AB]
+	(No symbol) [0x00007FF7F8173E72]
+	(No symbol) [0x00007FF7F81732FE]
+	(No symbol) [0x00007FF7F816EC6C]
+	(No symbol) [0x00007FF7F816B30E]
+	(No symbol) [0x00007FF7F81AA198]
+	(No symbol) [0x00007FF7F81A9CB0]
+	(No symbol) [0x00007FF7F81A1E83]
+	(No symbol) [0x00007FF7F817670A]
+	(No symbol) [0x00007FF7F8177964]
+	GetHandleVerifier [0x00007FF7F8690AAB+3694587]
+	GetHandleVerifier [0x00007FF7F86E728E+4048862]
+	GetHandleVerifier [0x00007FF7F86DF173+4015811]
+	GetHandleVerifier [0x00007FF7F83B47D6+695590]
+	(No symbol) [0x00007FF7F8290CE8]
+	(No symbol) [0x00007FF7F828CF34]
+	(No symbol) [0x00007FF7F828D062]
+	(No symbol) [0x00007FF7F827D3A3]
+	BaseThreadInitThunk [0x00007FFC9E69259D+29]
+	RtlUserThreadStart [0x00007FFC9F12AF38+40]
+</status>
+</kw>
+<status status="FAIL" start="2024-11-18T17:01:13.536383" elapsed="3.754476">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 130.0.6723.117 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F83182B2+55298]
+	(No symbol) [0x00007FF7F8285E02]
+	(No symbol) [0x00007FF7F81405AB]
+	(No symbol) [0x00007FF7F8173E72]
+	(No symbol) [0x00007FF7F81732FE]
+	(No symbol) [0x00007FF7F816EC6C]
+	(No symbol) [0x00007FF7F816B30E]
+	(No symbol) [0x00007FF7F81AA198]
+	(No symbol) [0x00007FF7F81A9CB0]
+	(No symbol) [0x00007FF7F81A1E83]
+	(No symbol) [0x00007FF7F817670A]
+	(No symbol) [0x00007FF7F8177964]
+	GetHandleVerifier [0x00007FF7F8690AAB+3694587]
+	GetHandleVerifier [0x00007FF7F86E728E+4048862]
+	GetHandleVerifier [0x00007FF7F86DF173+4015811]
+	GetHandleVerifier [0x00007FF7F83B47D6+695590]
+	(No symbol) [0x00007FF7F8290CE8]
+	(No symbol) [0x00007FF7F828CF34]
+	(No symbol) [0x00007FF7F828D062]
+	(No symbol) [0x00007FF7F827D3A3]
+	BaseThreadInitThunk [0x00007FFC9E69259D+29]
+	RtlUserThreadStart [0x00007FFC9F12AF38+40]
+</status>
+</kw>
+<test id="s1-t1" name="When counter has a nonzero value and it is reset the value becomes zero" line="7">
+<status status="FAIL" start="2024-11-18T17:01:17.290859" elapsed="0.000000">Parent suite setup failed:
+SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 130.0.6723.117 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F83182B2+55298]
+	(No symbol) [0x00007FF7F8285E02]
+	(No symbol) [0x00007FF7F81405AB]
+	(No symbol) [0x00007FF7F8173E72]
+	(No symbol) [0x00007FF7F81732FE]
+	(No symbol) [0x00007FF7F816EC6C]
+	(No symbol) [0x00007FF7F816B30E]
+	(No symbol) [0x00007FF7F81AA198]
+	(No symbol) [0x00007FF7F81A9CB0]
+	(No symbol) [0x00007FF7F81A1E83]
+	(No symbol) [0x00007FF7F817670A]
+	(No symbol) [0x00007FF7F8177964]
+	GetHandleVerifier [0x00007FF7F8690AAB+3694587]
+	GetHandleVerifier [0x00007FF7F86E728E+4048862]
+	GetHandleVerifier [0x00007FF7F86DF173+4015811]
+	GetHandleVerifier [0x00007FF7F83B47D6+695590]
+	(No symbol) [0x00007FF7F8290CE8]
+	(No symbol) [0x00007FF7F828CF34]
+	(No symbol) [0x00007FF7F828D062]
+	(No symbol) [0x00007FF7F827D3A3]
+	BaseThreadInitThunk [0x00007FFC9E69259D+29]
+	RtlUserThreadStart [0x00007FFC9F12AF38+40]
+</status>
+</test>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-18T17:01:17.291859" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-11-18T17:01:13.260476" elapsed="4.031383">Suite setup failed:
+SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 130.0.6723.117 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F83182B2+55298]
+	(No symbol) [0x00007FF7F8285E02]
+	(No symbol) [0x00007FF7F81405AB]
+	(No symbol) [0x00007FF7F8173E72]
+	(No symbol) [0x00007FF7F81732FE]
+	(No symbol) [0x00007FF7F816EC6C]
+	(No symbol) [0x00007FF7F816B30E]
+	(No symbol) [0x00007FF7F81AA198]
+	(No symbol) [0x00007FF7F81A9CB0]
+	(No symbol) [0x00007FF7F81A1E83]
+	(No symbol) [0x00007FF7F817670A]
+	(No symbol) [0x00007FF7F8177964]
+	GetHandleVerifier [0x00007FF7F8690AAB+3694587]
+	GetHandleVerifier [0x00007FF7F86E728E+4048862]
+	GetHandleVerifier [0x00007FF7F86DF173+4015811]
+	GetHandleVerifier [0x00007FF7F83B47D6+695590]
+	(No symbol) [0x00007FF7F8290CE8]
+	(No symbol) [0x00007FF7F828CF34]
+	(No symbol) [0x00007FF7F828D062]
+	(No symbol) [0x00007FF7F827D3A3]
+	BaseThreadInitThunk [0x00007FFC9E69259D+29]
+	RtlUserThreadStart [0x00007FFC9F12AF38+40]
+</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Reset">Reset</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-11-18T17:01:14.160882" level="WARN">The chromedriver version (119.0.6045.105) detected in PATH at C:\Users\Emil\Downloads\chromedriver-win64 (1)\chromedriver-win64\chromedriver.exe might not be compatible with the detected chrome version (130.0.6723.117); currently, chromedriver 130.0.6723.116 is recommended for chrome 130.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>
